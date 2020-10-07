@@ -12,6 +12,8 @@ const adding = () => {
         if (displayNum < 0){
             let display = document.querySelector(".displayNum");
             display.style.color = "red"
+        }else{
+            display.style.color = "black"
         }
     })
 }
@@ -24,6 +26,8 @@ const subtracting = () =>{
         if (displayNum < 0){
             let display = document.querySelector(".displayNum");
             display.style.color = "red"
+        }else{
+            display.style.color = "black"
         }
     })
 }
